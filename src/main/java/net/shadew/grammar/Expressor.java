@@ -8,7 +8,7 @@ import java.util.*;
  * <li>{@code FOO}: A terminal symbol. This symbol must match exactly here. See {@link Terminal}.</li>
  * <li>{@code bar}: A non-terminal symbol. This symbol must match exactly here. See {@link Nonterminal}.</li>
  * <li>{@code $}: EOF: a special kind of terminal symbol that matches the end. See {@link #EOF}.</li>
- * <li>{@code _}: Any: matches any terminal symbol. See {@link #ANY}.</li>
+ * <li>{@code .}: Any: matches any terminal symbol. See {@link #ANY}.</li>
  * <li>{@code ~(FOO | BAR)}: A negated list of terminal symbols. This matches any terminal but the given ones.
  *     See {@link Nonterminal}.</li>
  * <li>{@code (foo bar)}: An expression of sequential expressors. See {@link Expression}.</li>

@@ -32,7 +32,7 @@ public enum Any implements Expressor {
 
     @Override
     public String describe() {
-        return "_";
+        return ".";
     }
 
     @Override
